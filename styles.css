@@ -176,7 +176,9 @@ textarea:focus, input:focus{
       font-size: 20px;
     }
     h1{
-        font-size: 14px;
+        font-size: 20px;
+        display:flex;
+        flex-wrap:
     }
 }
 
