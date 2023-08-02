@@ -172,9 +172,11 @@ textarea:focus, input:focus{
     
 @media screen and (max-width: 480px) {
     #intro,
-    h1,
     h3 {
       font-size: 20px;
+    }
+    h1{
+        font-size: 14px;
     }
 }
 
