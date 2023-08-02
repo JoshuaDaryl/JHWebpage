@@ -19,7 +19,7 @@ function changeContact() {
     
     let formHtml = `
        
-        <form action="action_page.php">
+        <form action="message.php">
             <div class="form">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="First...">
