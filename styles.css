@@ -176,6 +176,9 @@ textarea:focus, input:focus{
     h3 {
       font-size: 20px;
     }
+    img {
+        transform: scale(0.5);
+      }
 }
 
 
