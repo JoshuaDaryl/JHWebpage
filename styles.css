@@ -47,6 +47,10 @@ body {
 h1 {
     margin-bottom: 0;
     font-size:45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    max-width: 65%;
    }
 
 h3:hover {
@@ -89,10 +93,7 @@ h3:hover {
     flex-direction: column;
     overflow-y: scroll;
     justify-content: center;
-    
-    
 }
-
 
 p{
     margin-bottom:0;
@@ -174,11 +175,6 @@ textarea:focus, input:focus{
     #intro,
     h3 {
       font-size: 20px;
-    }
-    h1{
-        font-size: 20px;
-        display:flex;
-        flex-wrap:
     }
 }
 
