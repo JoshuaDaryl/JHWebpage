@@ -1,4 +1,4 @@
-element.addEventListener("click", myFunction);
+
 
 function changeBio(){
     let clicked = document.getElementById("intro")
