@@ -203,6 +203,14 @@ textarea:focus, input:focus{
     img {
         transform: scale(0.5);
       }
+    #subject{
+    width:175px;
+}
+
+    #message{
+    width: 200px;
+    height: 200px;
+}
 }
 
 
