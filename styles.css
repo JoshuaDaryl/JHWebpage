@@ -4,7 +4,7 @@
     align-items: center; 
     flex-direction: column;
     min-height: 100vh; 
-    background-image:url("background.jpeg");
+    background-image:url("sky.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
     background-color: white;
@@ -81,10 +81,11 @@ h3:hover {
 }
 
 #intro{
-    background-image:linear-gradient(180deg,rgba(6, 174, 235, 0.7),rgba(248, 191, 4, 0.5),rgba(231, 106, 106, 0.3));
+    background-color:rgba(6, 174, 235, 0.7);
     font-size:120px;
     font-family: Helvetica, sans-serif;
     width:70vw;
+    max-width: 70vw;
     height: 63vh;
     font-weight:bold;
     color:beige;
@@ -123,21 +124,35 @@ h3{
     justify-content: center;
     overflow-y:scroll;
     align-items:center;
+    
 
     
 }
 
-#fname, #lname, #subject, #submit {
-    background-color: rgba(6, 174, 235, 0.5);
+#name, #email, #message, #subject, #submit {
+    background-color: rgba(245,245,220, 0.7);
     font-family: Helvetica, sans-serif;
-    color:beige;
+    color:darkslategrey;
     border:0;
     
 }
 
+#subject{
+    width:250px;
+}
+
+#message{
+    width: 300px;
+    height: 200px;
+}
+
+#submit{
+    margin-top: 8px;
+}
+
 ::placeholder{
     
-    color:beige;
+    color:#f16951;
    
 }
 
